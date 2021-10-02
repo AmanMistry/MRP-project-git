@@ -21,7 +21,7 @@ def artistHome(request):
 def artistHomeWithOutLogin(request):
     return render(request, "artist1/home2.html")
 
-#Login
+#UserLogin
 def handleLogin(request):
     if (request.method == 'POST'):
         # get the POST parameter
